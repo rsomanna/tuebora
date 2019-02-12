@@ -1,0 +1,65 @@
+<div class="container">
+<div class="row">
+<div class="col-6">
+  <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+  <div class="container">
+     <div class="navbar-header">
+  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+    <span class="sr-only">Toggle navigation</span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+  </button>
+</div>
+
+<!-- Collect the nav links, forms, and other content for toggling -->
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <ul class="nav navbar-nav">
+      <li><a href="index.php">Home</a></li>
+      <li><a href="about.php">About</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="contact.php">Contact</a></li>
+    </ul>
+  </div>
+  </div>
+</nav> 
+</div>
+<div class="col-6">
+    <form>
+        <div class="form-group">
+            <label for="inputEmail">Email</label>
+            <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+        </div>
+        <div class="form-group">
+            <label for="inputPassword">Password</label>
+            <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+        </div>
+        <div class="checkbox">
+            <label><input type="checkbox"> Chec Box</label>
+        </div>
+        <div>
+        <textarea rows="4" cols="50">
+            Text area with 4 line
+            </textarea>
+          </div>
+          <div>
+        <button type="submit" class="btn btn-primary">Login</button>
+      </div>
+    </form>  
+    <div class="dropdown">
+        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Dropdown
+          </a>
+        <ul class="dropdown-menu">
+            <li><a href="#">List of Options value</a></li>
+            <li><a href="#">Required</a></li>
+            <li><a href="#">Error message if required</a></li>
+        </ul>
+    </div>
+    <div> <app-bar-chart></app-bar-chart> </div>
+    
+</div>
+</div>
+</div>
+
+<router-outlet></router-outlet>
